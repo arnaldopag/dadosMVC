@@ -1,8 +1,25 @@
-﻿@{
+﻿@using atividade_ii.Models
+@model ItemPedido
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Cadastro Pedido</h2>
+
+<form action="Cadastro" method="POST">
+    <label asp-for="descricao">Descrição: </label>
+    <input asp-for='descricao'>
+    <label asp-for='precoUni'>Preço Unitario: </label>
+    <input asp-for='precoUni'>
+    <label asp-for='qtd'>Quantidade: </label>
+    <input asp-for='qtd'>
+
+
+
+
+
+
+
+
+</form>
