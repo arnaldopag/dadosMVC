@@ -1,4 +1,23 @@
-﻿@model ItemPedido
+﻿@model List<ItemPedido>;
 
-
-<h1>asdfauisdfiuhasdifhu</h1>
+<h1>Lista de itens Pedidos</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Preço Unitário</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (ItemPedido item in Model)
+        {
+            <tr>
+                <td>@item.descricao</td>
+                <td>@item.precoUni</td>
+                <td>@item.qtd</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>Total do Pedido: @Pedido.totalizador()</p>

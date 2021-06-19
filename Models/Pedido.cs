@@ -7,9 +7,9 @@ namespace atividade_ii.Models
         private static List<ItemPedido> ItemPedido = new List<ItemPedido>();
 
 
-        public static void AddItemPedido(ItemPedido item)
+        public void AddItemPedido(ItemPedido novoItem)
         {
-            ItemPedido.Add(item);
+            ItemPedido.Add(novoItem);
         }
         public double totalizador()
         {
@@ -19,8 +19,10 @@ namespace atividade_ii.Models
             {
                 total += itens.precoUni * itens.qtd;
             }
-
             return total;
         }
-    }
+        public List<ItemPedido> ListaItems(){
+            return ItemPedido;
+        }
+    }   
 }

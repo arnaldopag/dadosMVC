@@ -17,7 +17,16 @@ namespace atividade_ii.Controllers
         {
             _logger = logger;
         }
-
+        public IActionResult index()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Cadastro(ItemPedido novoItem)
+        {
+            Dados.PedidoAtual.AddItemPedido(novoItem);
+            return View();
+        }
         public IActionResult Cadastro()
         {
             return View();
