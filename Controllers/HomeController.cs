@@ -18,20 +18,14 @@ namespace atividade_ii.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Cadastro()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult PedidoAtual()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

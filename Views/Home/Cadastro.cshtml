@@ -1,1 +1,15 @@
-<h1>cadastrado</h1>
+@model ItemPedido;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<form method="POST">
+    
+    <label asp-for='descricao'>Descrição: </label>
+    <input asp-for='descricao'>
+    <label asp-for='precoUni'>Preço Unitario: </label>
+    <input asp-for='precoUni'>
+    <label asp-for='qtd'>Quantidade: </label>
+    <input asp-for='qtd'>
+    <input type="submit" value="Cadastrar">
+
+</form>

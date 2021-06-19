@@ -8,8 +8,6 @@ C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\ne
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\atividade-ii.TagHelpers.input.cache
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\atividade-ii.TagHelpers.output.cache
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\atividade-ii.RazorCoreGenerate.cache
-C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -35,3 +33,4 @@ C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\ne
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\atividade-ii.genruntimeconfig.cache
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\atividade-ii.csproj.CopyComplete
 C:\Users\dinhu\onedrive\documentos\cursosenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\Home\cadastro.cshtml.g.cs
+C:\Users\dinhu\OneDrive\Documentos\cursoSenac\modulo03\atividade-ii\obj\Debug\netcoreapp3.1\Razor\Views\Home\PedidoAtual.cshtml.g.cs
