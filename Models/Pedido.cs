@@ -11,7 +11,7 @@ namespace atividade_ii.Models
         {
             ItemPedido.Add(novoItem);
         }
-        public double totalizador()
+        public static double totalizador()
         {
             double total = 0;
 

@@ -33,8 +33,9 @@ namespace atividade_ii.Controllers
         }
 
         public IActionResult PedidoAtual()
-        {
-            return View();
+        {   
+            List<ItemPedido> item = Dados.PedidoAtual.ListaItems();
+            return View(item);
         }
     }
 }
